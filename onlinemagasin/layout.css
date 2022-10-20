@@ -1,0 +1,41 @@
+/* Grid på 'Motivation' og 'Inspiration' siden */
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+/* Grid på 'Kost & Kroppen' siden */
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-col :last-child {
+  margin-top: auto;
+}
+/* Grid på 'Galleri' siden */
+
+.grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.jpg1 {
+  display: grid;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.jpg3 {
+  display: grid;
+  grid-column: span 2;
+}
+
+.jpg6 {
+  display: grid;
+  grid-column: span 3;
+}
